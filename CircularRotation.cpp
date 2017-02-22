@@ -43,6 +43,10 @@ int main() {
     causing errors or, even, segmentation error (as in test case 4). So, doing this, you add N to
     negative indexes to retrive the correct values from the former array, without rotating it at all
     
+    or
+    do
+    cin>> arr[(i+r)%n];
+    
     */
     /*for(long int i=0;i<q;i++)
     {
